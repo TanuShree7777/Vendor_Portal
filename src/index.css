@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar {
+  position: absolute;
+  width: 100%;
+}
+
+.navbar-brand {
+  color: #5A5A5A;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.navRight-name{
+  left: 1200px;
+  top: 19px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #5A5A5A;
+}
+
+.navRight-title{ 
+top: 44px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 18px;
+text-align: right;
+}
+.nav-profile{
+  width: 40px;
+  height: 53.35px;
+  left: 1370px;
+  top: 19.76px;  
+}

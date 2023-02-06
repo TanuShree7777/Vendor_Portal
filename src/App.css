@@ -1,11 +1,17 @@
-.App {
-  text-align: center;
+.navbar {
+  position: absolute;
+  width: 1223.78px;
+  height: 80px;
+  left: 216.22px;
+
+}
+.navbar-brand{
+  color:#5A5A5A;
+  font-size:24px;
+  font-weight: 500;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -32,6 +38,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
