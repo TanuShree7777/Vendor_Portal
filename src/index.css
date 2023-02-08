@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #F5F5F5;
 }
 
 code {
@@ -13,8 +14,22 @@ code {
 }
 
 .navbar {
-  position: absolute;
-  width: 100%;
+  height: 80px;
+  margin-left: 216.22px;
+  background: #FFFFFF;
+}
+
+.navRight{
+  margin-right: 20px;
+}
+
+.navRight-icon{
+  margin: 13px 30px 0 0;
+  height:21px;
+  width:18px;
+}
+.navRight-text {
+  margin-right: 10px;
 }
 
 .navbar-brand {
@@ -22,9 +37,10 @@ code {
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
+  margin-left: 40px;
 }
 
-.navRight-name{
+.navRight-name {
   left: 1200px;
   top: 19px;
   font-style: normal;
@@ -33,20 +49,58 @@ code {
   line-height: 24px;
   text-align: right;
   color: #5A5A5A;
+  margin-bottom: 5px;
+  
 }
 
-.navRight-title{ 
-top: 44px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 300;
-font-size: 12px;
-line-height: 18px;
-text-align: right;
+.navRight-title {
+  top: 44px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: right;
+  margin-bottom: 0px;
 }
-.nav-profile{
-  width: 40px;
-  height: 53.35px;
+
+.nav-profile {
   left: 1370px;
-  top: 19.76px;  
+  top: 19.76px;
+}
+
+.nav-profile img {
+  height:50px;
+  width:50px;
+  border-radius: 50px;
+
+}
+
+.total-vendor{
+  width: 316px;
+  height: 84px;
+  left: 293px;
+  top: 188px; 
+  background: #D8EDFF;
+  border-left: 6px solid #2C5DDC;
+  border-radius: 5px;
+}
+.active-vendor{
+  width: 316px;
+  height: 84px;
+  left: 293px;
+  top: 188px; 
+  background: #DEFFDD;
+  border-left: 6px solid #249953;
+  border-radius: 5px;
+}
+.inactive-vendor{
+  width: 316px;
+  height: 84px;
+  left: 293px;
+  top: 188px; 
+  background: #FFDFDF;
+  border-left: 6px solid #C32A2A;
+  border-radius: 5px;
+
 }
