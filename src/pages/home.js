@@ -1,12 +1,11 @@
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "../components/common/Navbar";
-
-
+import VendorStatics from "../components/VendorStatics";
 
 const Home = () => {
     return (
         <>
             <Navbar />
+            <VendorStatics/>
         </>
     );
 }
