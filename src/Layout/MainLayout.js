@@ -6,7 +6,7 @@ const MainLayout = () => {
   return (
     <>
       <Container>
-        <Outlet>dfh</Outlet>
+        <Outlet>OutLet</Outlet>
       </Container>
     </>
   );

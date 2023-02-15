@@ -1,18 +1,3 @@
-.navbar {
-  position: absolute;
-  width: 1223.78px;
-  height: 80px;
-  left: 216.22px;
-
-}
-.navbar-brand{
-  color:#5A5A5A;
-  font-size:24px;
-  font-weight: 500;
-}
-
-
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
