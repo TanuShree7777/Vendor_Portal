@@ -104,3 +104,8 @@ code {
   border-radius: 5px;
 
 }
+/* //////////////////////////////vendor search component//////////////////////////////////// */
+.searchForm {
+  background-color: #f0e7e7;
+  padding: 38px;
+}
